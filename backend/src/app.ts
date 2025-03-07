@@ -87,7 +87,10 @@ io.on('connection', (socket) => {
 
 // Middleware
 app.use(cors(corsOptions));
-app.use(helmet());
+// app.use(helmet());
+app.use(helmet({
+  contentSecurityPolicy: false // Temporarily disable CSP to troubleshoot
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

@@ -1,0 +1,1 @@
+import{Gb as a,Hb as o,_b as p,fc as i,ka as n}from"./chunk-LBNGVE6L.js";var s=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-ldap"]],standalone:!0,features:[i],decls:2,vars:0,template:function(e,r){e&1&&(a(0,"p"),p(1,"ldap works!"),o())}})};export{s as LdapComponent};

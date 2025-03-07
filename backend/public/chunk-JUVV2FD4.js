@@ -1,0 +1,1 @@
+import{Gb as n,Hb as s,_b as a,fc as r,ka as o}from"./chunk-LBNGVE6L.js";var i=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-roles"]],standalone:!0,features:[r],decls:2,vars:0,template:function(e,p){e&1&&(n(0,"p"),a(1,"roles works!"),s())}})};export{i as RolesComponent};

@@ -1,0 +1,1 @@
+import{Gb as i,Hb as n,_b as r,fc as a,ka as o}from"./chunk-LBNGVE6L.js";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-active-directory"]],standalone:!0,features:[a],decls:2,vars:0,template:function(e,s){e&1&&(i(0,"p"),r(1,"active-directory works!"),n())}})};export{c as ActiveDirectoryComponent};

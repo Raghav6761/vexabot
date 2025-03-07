@@ -47,6 +47,8 @@ export class ChatService {
                 chat_model: chatModel
             };
 
+            // console.log('chat service payload', payload)
+
             const response = await this.api.post('/chat', payload);
             return response.data;
         } catch (error) {
